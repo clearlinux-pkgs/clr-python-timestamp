@@ -4,7 +4,7 @@
 #
 Name     : clr-python-timestamp
 Version  : 10
-Release  : 19
+Release  : 20
 URL      : http://localhost/cgit/projects/clr-python-timestamp/snapshot/clr-python-timestamp-10.tar.gz
 Source0  : http://localhost/cgit/projects/clr-python-timestamp/snapshot/clr-python-timestamp-10.tar.gz
 Summary  : No detailed summary available
