@@ -4,7 +4,7 @@
 #
 Name     : clr-python-timestamp
 Version  : 17
-Release  : 33
+Release  : 34
 URL      : http://localhost/cgit/projects/clr-python-timestamp/snapshot/clr-python-timestamp-17.tar.gz
 Source0  : http://localhost/cgit/projects/clr-python-timestamp/snapshot/clr-python-timestamp-17.tar.gz
 Summary  : No detailed summary available
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : Apache-2.0
 Requires: clr-python-timestamp-bin
 Requires: clr-python-timestamp-license
+Requires: clr-avx-tools
 Requires: python3
 Requires: usrbinpython
 
@@ -43,7 +44,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1530305424
+export SOURCE_DATE_EPOCH=1530310477
 export CFLAGS="$CFLAGS -Os -fdata-sections -ffunction-sections -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -Os -fdata-sections -ffunction-sections -fno-semantic-interposition "
 export FFLAGS="$CFLAGS -Os -fdata-sections -ffunction-sections -fno-semantic-interposition "
@@ -59,7 +60,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1530305424
+export SOURCE_DATE_EPOCH=1530310477
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/doc/clr-python-timestamp
 cp COPYING %{buildroot}/usr/share/doc/clr-python-timestamp/COPYING
