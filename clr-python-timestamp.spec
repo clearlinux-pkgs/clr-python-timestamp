@@ -4,7 +4,7 @@
 #
 Name     : clr-python-timestamp
 Version  : 17
-Release  : 36
+Release  : 37
 URL      : http://localhost/cgit/projects/clr-python-timestamp/snapshot/clr-python-timestamp-17.tar.gz
 Source0  : http://localhost/cgit/projects/clr-python-timestamp/snapshot/clr-python-timestamp-17.tar.gz
 Summary  : No detailed summary available
